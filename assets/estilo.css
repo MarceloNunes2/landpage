@@ -5,5 +5,69 @@
     padding: 0;
 }
 body{
-    background-color: yellow;
+    background-color: #1c2531;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(50deg, rgb(128, 112, 112),rgba(153, 68, 223, 0.822));
+}
+img{
+    width: 200px;
+    height: 80px;
+}
+.container{
+  position: absolute;
+  left: 40%;
+  top: 55%;
+  transform: translate(-80% , -250%);
+  color: wheat;
+}
+.container{
+    margin-top: 170px;
+    height: 175px;
+}
+.container2{
+   position: absolute;
+   left: 85%;
+   bottom: 45%;
+   transform: translate(-55%, -20% );
+   color: wheat;
+
+}
+.container2{
+    width: 420px;
+}
+button{
+    
+    margin: auto;
+    display: block;
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(182, 182, 218);
+    
+}
+
+@media (max-width:965px){
+    .container{
+      font-size: 12px;
+      position: absolute;
+      left: 34%;
+      right: 25%;
+    }
+    .container2{
+        font-size: 11px;
+        position: absolute;
+        left: 85%;
+    
+    }
+    #sct2{
+        margin-top: 36%;
+    }
 }
